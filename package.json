@@ -1,0 +1,35 @@
+{
+  "name": "@pexcode/qds-status-sdk",
+  "version": "1.0.2",
+  "description": "Shared Vue composables for package status and events with built-in en/ar locales.",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "push": "npm publish --access public",
+    "publish": "npm run build && npm run push"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "composables",
+    "status",
+    "events",
+    "i18n",
+    "qds",
+    "QuickdeliverySystem"
+  ],
+  "author": "QuickdeliverySystem",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  } 
+}
