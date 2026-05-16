@@ -1,6 +1,6 @@
 {
   "name": "@pexcode/qds-status-sdk",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "Shared Vue composables for package status and events with built-in en/ar locales.",
   "type": "module",
   "main": "dist/index.js",
